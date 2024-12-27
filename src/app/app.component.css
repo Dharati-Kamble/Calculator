@@ -1,0 +1,72 @@
+/*.mainbox{
+    background-color: #e2f8f2;
+    border: 1px solid #62dab6;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 8px 2px 2px 8px;
+}
+.operation-section.container {
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 20px 30px;
+    text-align: center;
+}
+button.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-primary.mat-mdc-button-base {
+    display: block;
+    width: 10%;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled){
+    background-color: #fff;
+} */
+ /* Center the content in the main box */
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .operation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* To keep the layout responsive */
+    background-color: #e2f8f2;
+    border: 1px solid #62dab6;
+  }
+  
+  h3 {
+    margin-top: 15px;
+  }
+  
+  .input-container {
+    width: 100%; /* Full width for the form fields */
+    margin-bottom: 15px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  /*button.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-primary.mat-mdc-button-base {
+    color: #fff !important;
+    background-color: #2196f3 !important;
+    border-radius: 0px;
+} */
+.mat-mdc-raised-button {
+    color: #fff !important;
+    background-color: #2196f3 !important;
+    border-radius: 0px;
+}
+.mat-mdc-text-field-wrapper {
+    background-color: #fff !important;
+}
+  
+  /* Style the header */
+  .header {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
